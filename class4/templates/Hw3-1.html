@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html>
+    <head><title> my web </title></head>
+    <body>
+        <form action="/formprocess.php" method="post">
+            Name:<br><input type="text" maxlength="12" minlength="3" size="12" name="account" placeholder="你的名字"><br>
+            Email:<br><input type="email" name="email"><br>
+            Comments:<br><textarea name="mytext" row="6" cols="40" required>你的留言</textarea><br>
+            Birthday and Time:<br><input type="date" value="2024-03-10" min="1924-01-01" max="2024-03-10">
+            <input type="time" value="11:00" min="1:00" max="23:59"><br>
+            請問你最有興趣學習的技術:<br><input type="radio" name="html" value="html"> HTML<br>
+            <input type="radio" name="css" value="css"> CSS<br>
+            <input type="radio" name="java" value="java"> JAVASCRIPT<br>
+            <input type="submit" value="送出資料">  
+            <input type="reset" value="重填資料">       
+    </form></body>
